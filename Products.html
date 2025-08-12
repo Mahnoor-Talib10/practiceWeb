@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Products</title>
+        <link rel="stylesheet"  href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="web.css">
+        <style>
+          .image{
+            margin-top: 40pt;
+            max-width: 100px;
+            max-height: auto;}      
+      </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-expand-lg navbar-bg fixed-top">
+                        <img src="images/logo.png" height="70" width="auto">
+                        <a class="navbar-brand">MT Bazar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" 
+                        aria-controls="navContent" aria-expanded="false"  aria-label="Toggle nav">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navContent">
+                        <ul class="navbar-nav ml-auto w-100 d-flex justify-content-between ">
+                          <li class="nav-item"><a class="nav-link " href="web.html"><b>Home</b></a></li>
+                          <li class="nav-item"><a class="nav-link" href="About.html"><b>About</b></a></li>
+                          <li class="nav-item"><a class="nav-link active" href="#"><b>Products</b></a></li>
+                          <li class="nav-item"><a class="nav-link" href="Order.html"><b>Order Online</b></a></li>
+                          <li class="nav-item"><a class="nav-link" href="Services.html"><b>Services</b></a></li>
+                        </ul>
+                      </div>
+                      </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <header>
+                        <h6>
+                            Sale Upto 50% Discount. Hurry! Limited Period Offer <a href="Products.html" style="text-decoration: none; color: rgb(156, 169, 241);">
+                                Shop Now </a><span class="badge rounded-pills bg-danger">New</span>
+                        </h6>    
+                    </header>
+                </div>
+            </div>      
+        </div>
+       
+        <div class="container">
+          <div id="List" class="Listproduct row  "> </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                  <div class="modal-content" id="content">
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        
+        
+        <div class="container">
+        <div class="end mt-4">
+          <div class="row align-items-center">
+            <div class="col-sm-5 col-lg-5">
+              <div class="hero mt-3">
+                <h3>Subscribe Newsletter</h3>
+                <h5>Subscribe Newsletter to get 5% off on all products</h5>
+              </div>
+            </div>
+            <div class="col-sm-5 col-lg-5 offset-lg-2 offset-sm-2">
+              <div class="input-group " style="padding-right: 4px;">
+                <input type="text" class="form-control subscribe" id="subscribed" placeholder="Enter valid email">
+                <div class="input-group-append">
+                  <button class="input-group-btn btn btn-success subscribe" id="btnsub" onclick="subFunc()">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr style="height:10px;">
+          
+          <div class="row mt-5">
+            <div class="col-sm-3 me-2 col-lg-3">
+              <div class="d-flex align-items-start designer">
+                <img src="images/logo.png" class="me-3 size-image" alt="Designer" style="background-color:  rgb(156, 169, 241);">
+                <div>
+                  <b>
+                    <h4>MT</h4>
+                    <p style="font-size: larger;"><b>Bazar</b></p>
+                  </b>
+                </div>
+              </div>       
+            </div>
+            <div class="col-sm-7 offset-sm-1  col-lg-7 offset-lg-1">
+              <div class="row">
+                <div class="col-sm-3 col-lg-3" style="padding: 3px; text-decoration: underline;">
+                  <h4>Desi Fashion</h4>
+                </div>
+                <div class="col-sm-4 col-lg-4"  style="padding: 4px; text-decoration: underline;">
+                  <h4>Western Casual Wear</h4>
+                </div>
+                <div class="col-sm-5 col-lg-5"  style="padding: 3px; text-decoration: underline;">
+                  <h4>Western Formal Wear</h4>
+                </div>
+      
+                <div class="row mt-2">
+                  <div class="col-sm-3 col-lg-3" style="padding: 3px;">
+                    <h5>Kurta</h5>
+                  </div>
+                  <div class="col-sm-4 col-lg-4"  style="padding: 4px;">
+                    <h5>Shorts</h5>
+                  </div>
+                  <div class="col-sm-5 col-lg-5"  style="padding: 3px;">
+                    <h5>Chinos</h5>
+                  </div>
+                </div>
+                
+                <div class="row mt-2">
+                  <div class="col-sm-3 col-lg-3" style="padding: 3px;">
+                    <h5>Dhoti</h5>
+                  </div>          
+                  <div class="col-sm-4 col-lg-4"  style="padding: 4px;">
+                    <h5>T-Shirts</h5>
+                  </div>
+                  <div class="col-sm-5  col-lg-5"  style="padding: 3px;">
+                    <h5>Blazers</h5>
+                  </div>
+                </div>
+      
+                <div class="row mt-2">
+                  <div class="col-sm-3 col-lg-3" style="padding: 3px;">
+                    <h5>Shawls</h5>
+                  </div>
+                  <div class="col-sm-4 col-lg-4"  style="padding: 4px;">
+                    <h5>Hoodies</h5>
+                  </div>
+                  <div class="col-sm-5 col-lg-5"  style="padding: 3px;">
+                    <h5>Tuxedos</h5>
+                  </div>
+                </div>
+      
+                <div class="row mt-2">
+                  <div class="col-sm-3 col-lg-3" style="padding: 3px;">
+                    <h5>Shalwar</h5>
+                  </div>        
+                  <div class="col-sm-4 col-lg-4"  style="padding: 4px;">
+                    <h5>Tank Tops</h5>
+                  </div>
+                  <div class="col-sm-5 col-lg-5"  style="padding: 3px;">
+                    <h5>Business Suits</h5>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-sm-3 col-lg-3" style="padding: 3px;">
+                    <h5>Sherwani</h5>
+                  </div>
+                  <div class="col-sm-4 col-lg-4"  style="padding: 4px;">
+                    <h5>Polo Shirts</h5>
+                  </div>
+                  <div class="col-sm-5 col-lg-5"  style="padding: 3px;">
+                    <h5>French Cuff Shirts</h5>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-sm-3 col-lg-3" style="padding: 3px;">
+                    <h5>Waist Coats</h5>
+                  </div>               
+                  <div class="col-sm-4 col-lg-4"  style="padding: 4px;">
+                    <h5>Cargo Pants</h5>
+                  </div>
+                  <div class="col-sm-5 col-lg-5"  style="padding: 3px;">
+                    <h5>Button Down Shirts</h5>
+                  </div>          
+                </div>
+              </div>
+            </div>
+            <hr class="mt-3" style="height:10px;">
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-lg-12">
+              <footer  class="text-align-center">
+                Copyright@2024 All rights reseved | This template is made with <span
+                          style="color: red;">&#10084;</span>
+                      by MT
+              </footer>
+            </div>
+          </div>    
+         
+        </div>     
+      </div>
+    
+        <script src="jquery/jquery-3.7.1.min.js"></script>
+        <script src="product.js"></script>
+        <script src="order.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

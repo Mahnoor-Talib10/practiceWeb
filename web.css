@@ -1,0 +1,91 @@
+body{
+    padding-top: 87px;
+}
+/*Home Page*/
+
+.nav-link{
+    font-size: 20px;
+    color: rgb(7, 14, 71);
+    font-family: 'Merriweather';
+    margin-right: 3px;
+}
+.navbar-bg{
+    background-color: rgb(156, 169, 241);
+}
+
+.navbar-brand{
+    color: rgb(7, 14, 71);
+    font-family:'Merriweather';  
+    font-size: 30px; 
+    margin-left: 10px;
+}
+.active{
+    background-color: white;
+}
+img{
+    margin-left: 5px;
+}
+header{
+    background-color: rgb(7, 14, 71);
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather';
+    padding:2pt;
+}
+
+.y-hero{
+    text-align: center;
+    background-color: rgb(156, 169, 241);
+    color: rgb(7, 14, 71);
+    font-family: 'Merriweather';
+}
+.designer{
+    justify-content: center;
+}
+.size-image{
+    width: auto; height: 50px;
+}
+
+.end{
+    text-align: center;
+    background-color: rgb(7, 14, 71);
+    color: whitesmoke;
+    font-family: 'Merriweather';
+}
+/*Services Page*/
+#Services{
+    background-color: rgb(140, 140, 238);
+    color: rgb(7, 7, 56);
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Merriweather';
+    padding: 3em;
+}
+
+/*About*/
+.cc{
+    width: 30em;
+    height: auto;
+    background-color: rgb(7, 14, 71);
+}
+.ct{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: whitesmoke; 
+}
+
+/* Products Page */
+
+.Listproduct :hover{
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
